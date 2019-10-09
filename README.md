@@ -8,7 +8,7 @@ With the recent sunsetting of [TSLint](https://palantir.github.io/tslint/), [ESL
 To help files inline with the linting rules provided by ESLint, we use [prettier](https://prettier.io/) (along with the [VS Code plugin](https://github.com/prettier/prettier-vscode)) to auto format our files.
 
 ### UI: Material-UI
-I find [Material-UI](https://material-ui.com) to be an _incredibly_ useful library and so I include it in this package. Some people prefer the [Ant Design](https://ant.design/docs/react/introduce) library though (as well as others) so feel to swap this out with whatever you prefer
+I find [Material-UI](https://material-ui.com) to be an _incredibly_ useful library and so I include it in this package. Some people prefer the [Ant Design](https://ant.design/docs/react/introduce) library though (as well as [others](https://designrevision.com/react-component-libraries/)) so feel to swap this out with whatever you prefer
 
 ### Icons: Material-UI/icons
 [Material-UI](https://material-ui.com) also supplies some nice [icons](https://material-ui.com/components/material-icons/) that work well with its components. If you find yourself wishing you had more, I suggest adding [Material Design Icons](https://github.com/TeamWertarbyte/mdi-material-ui#readme) to your project as these are _ALSO_ made to work well with Material-UI components

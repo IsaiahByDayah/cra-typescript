@@ -10,8 +10,11 @@ To help files inline with the linting rules provided by ESLint, we use [prettier
 ### UI: Material-UI
 I find [Material-UI](https://material-ui.com) to be an _incredibly_ useful library and so I include it in this package. Some people prefer the [Ant Design](https://ant.design/docs/react/introduce) library though (as well as [others](https://designrevision.com/react-component-libraries/)) so feel to swap this out with whatever you prefer
 
-### Icons: Material-UI/icons
+#### Icons: Material-UI/icons
 [Material-UI](https://material-ui.com) also supplies some nice [icons](https://material-ui.com/components/material-icons/) that work well with its components. If you find yourself wishing you had more, I suggest adding [Material Design Icons](https://github.com/TeamWertarbyte/mdi-material-ui#readme) to your project as these are _ALSO_ made to work well with Material-UI components
+
+#### className management: classnames
+[classnames](https://github.com/JedWatson/classnames) is a powerful, yet lightweight tool for managing...well, classnames. Because MUI make it easy to create css styles and apply them via a components `className` prop, I've since added this for convenience
 
 ### Design Library: Storybook
 Speaking of UI and Icons, this template comes with [storybook](https://storybook.js.org/) already setup with some useful addons to import your storybook tests, display and interact with them, and generate storyshots when you run tests.

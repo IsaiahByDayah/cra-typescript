@@ -1,7 +1,8 @@
 import { StylesProvider } from "@material-ui/styles"
 import { GenerateId } from "jss"
 import React, { FunctionComponent } from "react"
-import { slugify } from "./utils"
+
+import { slugify } from "utils"
 
 interface SnapshotStylesProviderProps {
     kind: string
